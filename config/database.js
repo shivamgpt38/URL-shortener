@@ -1,4 +1,4 @@
 module.exports ={
-    database:'mongodb://localhost:27017/urlshorti',
+    database:'mongodb://shiva:shiva@ds117348.mlab.com:17348/urlshorti',
     secret:'test'
 }
