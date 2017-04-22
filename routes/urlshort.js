@@ -13,7 +13,7 @@ router.get('/:url',(req,res,next)=>{
         if(err){
             res.json({success:false,msg:'unable to add url'});
         } else{
-            res.json({url: 'localhost:4000/urlshort/'+newurl.uniqueId});
+            res.json({url: 'myurlshorti.herokuapp.com/api/url/'+newurl.uniqueId});
         }
     });
 });
