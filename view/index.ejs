@@ -1,33 +1,72 @@
 <html lang="en">
-    <head>
-        <title>URL Shortener Microservice</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="header">
-                URL Shortener Microservice
-            </h1>
-            <blockquote>
-                How it works:
-                <ul>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
-                <ul>When I visit that shortened URL, it will redirect me to my original link.</ul>
-            </blockquote>
-            <h3>Example usage:</h3>
-            <code>http://myurlshorti.herokuapp.com/api/google.com</code><br>
-            <code>http://myurlshorti.herokuapp.com/api/youtube.com</code>
-            <h3>Example output:</h3>
-            <code>
-                {"url":"myurlshorti.herokuapp.com/api/url/96203"}
-            </code>
-            <h3>Usage:</h3>
-            <code>
-                myurlshorti.herokuapp.com/api/url/96203
-            </code>
-            <h3>Will redirect to:</h3>
-            <code>
-                https://www.google.com/
-            </code>
+
+<head>
+    <title>URL Shortener Microservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css"></style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row p-2 p-sm-5">
+            <div class="col-12">
+                <h1 class="header">
+                    URL Shortener Microservice
+                </h1>
+                <hr />
+            </div>
+            <div class="col-12">
+                <h3>
+                    How it works
+                </h3>
+                <blockquote>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+                    When I visit that shortened URL, it will redirect me to my original link.
+                </blockquote>
+            </div>
+            <div class="col-12">
+                <h3>
+                    Example usage
+                </h3>
+                <blockquote>
+                    <code>http://myurlshorti.herokuapp.com/api/your_url_here.com</your></code><br />
+                    <code>http://myurlshorti.herokuapp.com/api/google.com</code><br />
+                    <code>http://myurlshorti.herokuapp.com/api/youtube.com</code>
+                </blockquote>
+            </div>
+            <div class="col-12">
+                <h3>
+                    Example output
+                </h3>
+                <blockquote>
+                    <code>
+                        {"url":"myurlshorti.herokuapp.com/api/url/96203"}
+                    </code>
+                </blockquote>
+            </div>
+            <div class="col-12">
+                <h3>
+                    Usage
+                </h3>
+                <blockquote>
+                    <code>
+                        myurlshorti.herokuapp.com/api/url/96203
+                    </code>
+                </blockquote>
+            </div>
+            <div class="col-12">
+                <h3>
+                    Will redirect to
+                </h3>
+                <blockquote>
+                    <code>
+                        https://www.google.com/
+                    </code>
+                </blockquote>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
